@@ -32,7 +32,7 @@ model = Sequential([
 # Compile model
 model.compile(optimizer=Adam(learning_rate=0.0001), loss='categorical_crossentropy', metrics=['accuracy'])
 
-# Fit the model
+# Train model
 history = model.fit(
     train_data,
     epochs=20,
